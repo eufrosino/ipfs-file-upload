@@ -1,0 +1,15 @@
+<h1>Upload file to IPFS</h1>
+<form action="/upload" method="post" enctype="multipart/form-data">
+  <div class="form-group">
+      <label for="exampleTextarea" class="form-label mt-4">File Name:</label>
+      <textarea name="fileName" class="form-control" id="exampleTextarea" rows="1" placeholder="Enter name of file"></textarea>
+    </div>
+  <div class="form-group">
+    <label for="formFile" class="form-label mt-4">File:</label>
+    <input name="file" class="form-control" type="file" id="formFile">
+  </div>
+  <br />
+  <div class="d-grid gap-2">
+    <button class="btn btn-lg btn-primary" type="submit">Upload File</button>
+  </div>
+</form>
