@@ -9,7 +9,6 @@ const port = 3000;
 
 const ipfs = create();
 
-// View engine
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
